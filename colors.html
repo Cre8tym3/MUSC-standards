@@ -4,13 +4,14 @@
 		 body { font-family: Verdana,Geneva,Arial,Helvetica,sans-serif; }
 		#top_bar { background-color: #E7E0D6; }
 		.l-mainCol { background-color: #F0ECE3; }
+		.dropBG { background-color: #0D6185; }
+		.dropHeader { background-color: #3E819C; }
 		.l-sidebar { background-color: #ECF6F8; }
-		.ftr {
-		    background-color: #E7E0D6;
-		}
+		.ftr { background-color: #E7E0D6; }
 		.sub-header-link { color: #006699; }
 		.hotline {  color: #990000; }
 		h2 { color: #003A69; }
+		h1 { background-color: #4D9DC5; color: #fff; }
 		.sidebar-link { color: #4D85C5; }
 		.content-header { color: #E7941A; }
 		.content-header:hover { color: #FFB953; }
@@ -18,6 +19,18 @@
 		.content-link { color: #4D85C5; }
 		.footer-link { color: #4D85C5; }
 		.column { border: 0.15em solid #CBD4DD; }
+		
+		.gradient { padding: 10px 10px 10px 15px; text-decoration:none; display: block; color: #fff; border-bottom: 1px solid #013d6c; border-top: 1px solid #4695d3;  
+
+background: rgb(40,94,128); /* Old browsers */
+background: -moz-linear-gradient(left, rgb(40,94,128) 0%, rgb(38,123,171) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(40,94,128)), color-stop(100%,rgb(38,123,171))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgb(40,94,128) 0%,rgb(38,123,171) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgb(40,94,128) 0%,rgb(38,123,171) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgb(40,94,128) 0%,rgb(38,123,171) 100%); /* IE10+ */
+background: linear-gradient(left, rgb(40,94,128) 0%,rgb(38,123,171) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#285e80', endColorstr='#267bab',GradientType=1 ); /* IE6-9 */
+}
 		</style>
 </head>
 	
@@ -25,6 +38,9 @@
     MUSC.EDU homepage colors as of 6/27/13
 		<div id='top_bar'>header BG - #E7E0D6</div>
 		<div class='l-mainCol'>sub-header BG - #F0ECE3</div>
+        <div class="dropBG">Drop-down BG - #0D6185</div>
+        <div class='dropHeader'>Drop-down header BG - #3E819C</div>
+        <div class="gradient">Gradient</div>
 		<div class='l-sidebar'>side-nav  BG - #ECF6F8</div>
 		<div class='ftr'>footer BG - #E7E0D6</div>
 		<P>Header link #00000</P>
@@ -32,12 +48,12 @@
 		<p><a href="#" class='hotline'>Hotline link #990000</a></p>
 		<h2>side-nav heading #003A69</h2>
 		<p><a href="#" class='sidebar-link'>Sidebar link #4D85C5</a></p>
+        <h1>Content Title: #4D9DC5</h1>
 		<h2><a href="#" class='content-header'>Content header #E7941A Hover: #FFB953</a></h2>
 		<p class="content">Content text #666565</p>
 		<div class='column'><p>Content column border #CBD4DD</p></div>
 		<p><a href="#" class='content-link'>Content link #4D85C5</a></p>
 		<P>Footer text #00000</P>
-		
 		<p><a href="#" class='footer-link'>Footer link #4D85C5</a></p>
 	</body>
 	
